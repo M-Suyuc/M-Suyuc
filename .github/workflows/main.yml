@@ -1,0 +1,30 @@
+name: update image every week
+
+on:
+  schedule:
+    - cron: "0 12 * * 0"
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write 
+    
+    steps:
+      - name: checkout repo
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Update README with new image
+        run: |
+          node ./src/main.js
+          git config --global user.name "marlon"
+          git config --global user.email "marlonsuyuc@github.com"
+          git add README.md
+          git commit -m "📅 Update every week image"
+          git push
+    
