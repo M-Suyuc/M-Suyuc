@@ -22,9 +22,4 @@ jobs:
       - name: Update README with new image
         run: |
           node ./src/main.js
-          git config --global user.name "marlon"
-          git config --global user.email "marlonsuyuc@github.com"
-          git add README.md
-          git commit -m "📅 Update every week image"
-          git push
     
