@@ -1,0 +1,33 @@
+name: update image every week
+
+on:
+  schedule:
+    - cron: "0 12 * * 0"
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write 
+    
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Update README with new image
+        run: |
+          node ./src/main.js
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "marlon"
+          git config user.email "marlonsuyuc@gmail.com"
+          git add README.md
+          git commit -m "chore: update README image (weekly update)" || echo "No changes to commit"
+          git push
