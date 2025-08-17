@@ -1,4 +1,4 @@
-![Header](./images/3.png)
+![Header](./images/2.png)
 
 ### My Stack
 
