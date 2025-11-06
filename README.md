@@ -1,13 +1,17 @@
 ![Header](./images/3.png)
 
+Hi! I'm Marlon, 👨🏽‍💻 Web developer
+
 ### My Stack
 
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Astro](https://img.shields.io/badge/astro-%232C2052.svg?style=for-the-badge&logo=astro&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-000?logo=javascript&logoColor=yellow&style=for-the-badge)
+![TypeScript](https://img.shields.io/badge/-TypeScript-000?logo=typescript&logoColor=358EF1&style=for-the-badge)
+![Next JS](https://img.shields.io/badge/-Next-000?logo=next.js&logoColor=fff&style=for-the-badge)
+![React](https://img.shields.io/badge/-React-000?logo=react&logoColor=61DAFB&style=for-the-badge)
+![Astro](https://img.shields.io/badge/-Astro-000?logo=astro&logoColor=fff&style=for-the-badge)
+![TailwindCSS](https://img.shields.io/badge/-Tailwind%20CSS-000?logo=tailwind-css&logoColor=06b6d4&style=for-the-badge)
+![Prisma](https://img.shields.io/badge/-Prisma-000?logo=prisma&logoColor=fff&style=for-the-badge)
+![Git](https://img.shields.io/badge/-Git-000?logo=git&logoColor=F1502F&style=for-the-badge)
 
 ### Github Stats
 
